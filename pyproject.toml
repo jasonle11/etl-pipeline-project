@@ -1,0 +1,27 @@
+[project]
+name = "etl-pipeline-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "QuanLe", email = "lemanhtungquan@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "bandit>=1.9.4",
+    "dbt>=2.0.8",
+    "dbt-sqlserver>=1.12.1",
+    "mypy>=2.4.0",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "pytest>=9.1.1",
+    "ruff>=0.17.0",
+    "sqlalchemy>=2.1.4",
+]
+
+[project.scripts]
+etl-pipeline-project = "etl_pipeline_project:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
