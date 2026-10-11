@@ -10,6 +10,7 @@ requires-python = ">=3.13"
 dependencies = [
     "bandit>=1.9.4",
     "dbt>=2.0.8",
+    "dbt-duckdb>=1.11.0",
     "dbt-sqlserver>=1.12.1",
     "mypy>=2.4.0",
     "numpy>=2.5.4",
